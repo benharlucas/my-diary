@@ -1,9 +1,11 @@
 import React from 'react'
-
 const Header = () => {
+    const home = 'Home';
+    const aboutUs = 'About us'
+
   return (
       <header>
-      <p> This is Header</p>
+          <p>{home} {aboutUs}</p>
       </header>
   )
 }
